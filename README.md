@@ -2,13 +2,11 @@
 
 In 2023, [AidData](https://www.aiddata.org/), an international development research lab housed at [William & Mary’s Global Research Institute](https://www.wm.edu/offices/global-research/), released its [massive dataset](https://www.aiddata.org/data/aiddatas-global-chinese-development-finance-dataset-version-3-0) on projects supported by loans and grants from China. 
 
-The dataset has 126 columns and 20,985 rows. 
+The `AidDatasGlobalChineseDevelopmentFinanceDataset_v3.0.xlsx` dataset has 126 columns and 20,985 rows. It is used for self-initiated `pandas` data cleaning practice. Findings may also be included in a scoping report currently being processed.
 
-### data.csv & data_petrochemical.csv
+### Workflows and outputs 
 
-The dataset is being used for self-initiated `pandas` data cleaning practice. Findings may also be included in a scoping report currently being processed.
-
- `data.csv` serves as a checkpoint file after filtering the data to only Southeast Asian countries and `data_petrochemical.csv` drops unnecessary columns and only keeps rows with the keyword "petrochemical".
+The Jupyter notebook `aid_data.ipynb` shows my first workflow using the AidData dataset. `data.csv` serves as a checkpoint file after filtering the data to only Southeast Asian countries and `data_petrochemical.csv` drops unnecessary columns and only keeps rows with the keyword "petrochemical". 
 
 ### Source citation
 
